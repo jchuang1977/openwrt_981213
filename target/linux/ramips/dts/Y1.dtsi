@@ -86,7 +86,6 @@
 				ralink,group = "uartf", "wled", "nd_sd";
 				ralink,function = "gpio";
 			};
-
 			pa {
 				ralink,group = "pa";
 				ralink,function = "pa";
@@ -99,7 +98,6 @@
 		#address-cells = <1>;
 		#size-cells = <0>;
 		poll-interval = <20>;
-
 		reset {
 			label = "reset";
 			gpios = <&gpio0 11 1>;
